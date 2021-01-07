@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+      <TextView
+          android:id="@+id/titleTextViewId"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/title_text"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:textColor="#F8F3F3"
+          />
+
+     <RadioGroup
+      android:id="@+id/radioGroupId"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      >
+
+      <RadioButton
+          android:id="@+id/maleId"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/male_text"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:textColor="#F8F3F3"
+          android:textAllCaps="false"
+          android:layout_marginBottom="5dp"
+
+          />
+
+      <RadioButton
+          android:id="@+id/femaleId"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/female_text"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:textColor="#F8F3F3"
+          android:textAllCaps="false"
+          android:layout_marginBottom="5dp"
+
+          />
+
+      <RadioButton
+          android:id="@+id/shemaleId"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/shemale_text"
+          android:textSize="20sp"
+          android:textStyle="bold"
+          android:textColor="#F8F3F3"
+          android:textAllCaps="false"
+          android:layout_marginBottom="5dp"
+
+          />
+
+      </RadioGroup>
+
+    <Button
+        android:id="@+id/showButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#F8F3F3"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/resultTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#F8F3F3"
+        />
+
+</LinearLayout>
